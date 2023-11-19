@@ -1,0 +1,5 @@
+CREATE TABLE tickets (
+    plat VARCHAR(10) PRIMARY KEY,
+    kendaraan VARCHAR(10) NOT NULL,
+    entry TIMESTAMP NOT NULL
+);
