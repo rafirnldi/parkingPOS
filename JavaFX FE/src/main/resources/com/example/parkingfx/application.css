@@ -1,0 +1,32 @@
+.rounded-text-field {
+    -fx-background-radius: 15;
+    -fx-padding: 8 12; /* Adjust padding as needed */
+    -fx-font-size: 10; /* Adjust font size as needed */
+    -fx-border-color: #ccc; /* Border color */
+    -fx-border-radius: 15;
+}
+
+
+.rounded-pane {
+    -fx-background-radius: 15;
+    -fx-padding: 8 12; /* Adjust padding as needed */
+    -fx-font-size: 10; /* Adjust font size as needed */
+    -fx-border-color: #c6011b; /* Border color */
+    -fx-border-radius: 15;
+}
+
+.red-pane{
+    -fx-background-color : #c6011b;
+}
+
+.increased-spacing {
+    -fx-letter-spacing: 5px;
+}
+
+.rounded-text-field:focused {
+    -fx-border-color: #fffefe; /* Border color when focused */
+}
+
+.white-texts{
+    -fx-text-fill :#fffefe;
+}
